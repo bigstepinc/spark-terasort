@@ -54,6 +54,13 @@ always returns the files in alphanumeric order so most Hadoop users aren't
 affected. I thought I fixed this in the TeraInputFormat, but I was able to
 reproduce it since migrating the code from my Spark terasort branch.
 
+## spark versions
+To test against various versions of spark change the pom.xml spark version as appropriate.
+```xml
+  <scala.version>2.11.6</scala.version>
+  <scala.binary.version>2.11</scala.binary.version>
+  <spark.version>2.0.0-preview</spark.version>
+```
 # Contributing
 
 PRs are very welcome!
