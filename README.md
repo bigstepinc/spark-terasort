@@ -1,4 +1,6 @@
-#TeraSort benchmark for Spark
+#TeraSort benchmark
+
+This branch is configured to run on Spark 1.6.2. To use on other versions of Spark, refer to to the spark versions paragraph of this document.  
 
 [![Build
 Status](https://travis-ci.org/ehiggs/spark-terasort.svg)](https://travis-ci.org/ehiggs/spark-terasort)
